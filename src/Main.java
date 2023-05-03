@@ -6,12 +6,6 @@ public class Main {
         task3();
         task4();
 
-
-
-        
-
-
-
     }
 
     private static void task4() {
