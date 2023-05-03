@@ -30,7 +30,7 @@ public class Main {
         for (int note: monthOutcomeReport) {
             totalOutcome += note;
         }
-        meanOutcome = totalOutcome/monthOutcomeReport.length;
+        meanOutcome = (double) totalOutcome/monthOutcomeReport.length;
         System.out.println("Средняя сумма трат за месяц равна: " + meanOutcome + " рублей");
     }
 
